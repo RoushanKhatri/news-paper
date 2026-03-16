@@ -25,7 +25,7 @@ const App = () => {
       setLoading(true)
       setError(null)
       try {
-        const res = await axios.get(`http://api.mediastack.com/v1/news?access_key=${api_key}`)
+        const res = await axios.get(`https://api.mediastack.com/v1/news?access_key=${api_key}`)
         const data = res.data?.data
         if (Array.isArray(data)) {
           setArticles(data)
