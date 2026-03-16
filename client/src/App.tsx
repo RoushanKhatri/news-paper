@@ -47,7 +47,7 @@ const App = () => {
   return (
     <Box sx={{ p: 2, maxWidth: 900, mx: 'auto' }}>
       <Typography variant="h4" gutterBottom>
-        News Feed
+        News Feed by Roushan Khatri Gand mein Chhatri :)
       </Typography>
 
       {loading && (
